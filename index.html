@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Convert money</title>
+
+</head>
+
+<body>
+
+    <div class="caixa-video">
+
+        <img class="imagem-de-fundo" src="./img/Moedas-e-graficos-ao-fundo.png">
+        <div class="mascara"></div>
+
+    </div>
+
+    <img class="img-principal" src="./img/logo (1).gif">
+
+    <main>
+
+        <label>
+            Converter <b>de</b>
+            <select>
+
+                <option>R$ Real Brasileiro</option>
+
+            </select>
+
+        </label>
+
+        <label>
+            Converter <b>Para</b>
+            <select class="valor-select">
+
+                <option value="dolar">US$ Dólar Americano</option>
+                <option value="euro">€ euro</option>
+                <option value="libra">£ libra</option>
+                <option value="bitcoin">₿ bitcoin</option>
+                
+            </select>
+            
+        </label>
+
+
+        <label>
+            Valor
+            <input class="valor-input" placeholder="R$ 10.000,00">
+            
+        </label>
+        
+        <button>Converter</button>
+
+        <section>
+            
+            <div class="caixa-box">
+
+                <img src="./img/brasil.png" alt="logo-bamdeira-brasil">
+                <p class="moeda">Real</p>
+                <p class="valor-da-moeda-converter">R$ 0,00</p>
+
+            </div>
+
+            <img class="img-seta" src="./img/seta.png" alt="logo-seta">
+
+            <div class="caixa-box-segunda">
+
+                <img class="valor-img" src="./img/usa.png" alt="logo-bamdeira-americana">
+                <p class="moeda" id="valor-nome">Dólar Americano</p>
+                <p class="valor-da-moeda-convertido">US$ 0,00</p>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+</body>
+
+<script src="./script.js"></script>
+
+</html>
