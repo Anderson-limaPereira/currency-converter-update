@@ -31,16 +31,7 @@
     height: 100%;
 }
 
-.img-principal{
 
-    width: 250px;
-    display: block;
-    margin:20px auto;
-    border-radius: 10px;
-    opacity: 0.8;
-   
-    
-}
 
 main {
 
@@ -48,7 +39,10 @@ main {
     background:#F4F4F4;
     border-radius: 20px;
     margin:auto;
+    margin-top:5%;
     padding: 44px 24px 23px;
+    
+    
     
 }
 
